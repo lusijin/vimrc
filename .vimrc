@@ -1,3 +1,7 @@
+"设置 退出vim后，内容显示在终端屏幕, 可以用于查看和复制
+"好处：误删什么的，如果以前屏幕打开，可以找回
+set t_ti= t_te=
+
 set nocompatible
 let mapleader=","
 autocmd! bufwritepost .{,g}vimrc source % " 自动刷新
