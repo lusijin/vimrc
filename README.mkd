@@ -2,9 +2,8 @@
 
 ## Installation
 
-    cd somewhere/in/your/home
-    git clone https://github.com/undoZen/vimrc.git #You'd better fork it to your own GitHub repo and clone form it
     cd ~
+    git clone https://github.com/lusijin/vimrc.git
     ln -s ~/vimrc/.vim .
     ln -s ~/vimrc/.vimrc .
     ln -s ~/vimrc/.gvimrc .
